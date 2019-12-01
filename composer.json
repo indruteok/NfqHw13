@@ -1,0 +1,19 @@
+{
+  "name": "nfq/tests",
+  "description": "Home work project",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Indre Rakstele",
+      "email": "indruteok@gmail.com"
+    }
+  ],
+  "require-dev": {
+        "phpunit/phpunit": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "NfqHw13\\": "src/"
+    }
+  }
+}
